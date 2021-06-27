@@ -9,6 +9,7 @@ import json
 import os.path
 
 import nltk
+nltk.download()
 from nltk.sentiment import SentimentIntensityAnalyzer
 
 reddit = load_creds('auth/auth.yml')
