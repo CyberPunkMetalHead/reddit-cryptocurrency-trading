@@ -120,7 +120,10 @@ def get_price(coin, pairing):
 
 
 if __name__ == '__main__':
+    i = 0
     while True:
+        i +=1
+        print(f'iteration {i}')
         # get the posts from reddit
         posts = get_post()
 
@@ -138,7 +141,7 @@ if __name__ == '__main__':
             # compared to the ones stored
             new_posts = compare_posts(posts, saved_posts)
 
-            if new_posts > -1:
+            if new_posts > 0 or i == 2:
                 print("New posts detected, fetching new posts...")
 
                 # store the posts if they are new
