@@ -1,0 +1,9 @@
+---
+  # CLIENT DETAILS
+  client_id: "14_CHAR_APP_ID"
+  client_secret: "27_CHAR_APP_SECRET"
+  user_agent: "NAME_OF_APP"
+  password: "REDDIT_PASS"
+  username: "REDDIT_USERNAME"
+  binance_api: "BINANCE_API_KEY"
+  binance_secret: "BINANCE_SECRET"

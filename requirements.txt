@@ -1,0 +1,4 @@
+nltk==3.5
+praw==7.3.0
+PyYAML==5.4.1
+python-binance==1.0.9

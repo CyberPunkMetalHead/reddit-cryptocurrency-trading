@@ -1,0 +1,13 @@
+---
+  # Add Keywords like so
+  # use the coin symbol for the list
+  BTC:
+    - bitccoin
+    - BTC
+    - btc
+    - BITCOIN
+    - Bitcoin
+  ETH:
+    - Ethereum
+    - Eth
+    - ETH
