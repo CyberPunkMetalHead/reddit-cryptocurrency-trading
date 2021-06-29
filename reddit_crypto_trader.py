@@ -59,7 +59,7 @@ def compare_posts(fetched, stored):
     i=0
     for post in fetched:
         if not fetched[post] in [stored[item] for item in stored]:
-            i+=0
+            i+=1
 
     return i
 
